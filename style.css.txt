@@ -1,0 +1,113 @@
+body{
+font-family: Arial;
+background:#f4f6fb;
+margin:0;
+}
+
+#header{
+background:#2c3e50;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.section{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:6px;
+box-shadow:0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* ID Selector */
+#username{
+border:2px solid blue;
+}
+
+/* Class Selector */
+.login-btn{
+background:#27ae60;
+color:white;
+padding:10px;
+margin:5px;
+border:none;
+}
+
+/* Tag Selector */
+input{
+padding:8px;
+margin:5px;
+}
+
+/* Attribute Selector */
+[required]{
+border:2px solid red;
+}
+
+/* Attribute Value */
+[name="admin"]{
+background:#eaf7ff;
+}
+
+/* Starts With */
+[name^="us"]{
+border:2px solid green;
+}
+
+/* Ends With */
+[name$="est"]{
+background:#fff3cd;
+}
+
+/* Contains */
+[name*="min"]{
+color:blue;
+}
+
+/* Descendant */
+.parent input{
+border:1px solid black;
+}
+
+/* Child */
+.parent > label{
+font-weight:bold;
+}
+
+/* Adjacent */
+label + input{
+background:#f9f9f9;
+}
+
+/* General Sibling */
+label ~ input{
+border-radius:5px;
+}
+
+/* Pseudo Classes */
+.menu li:first-child{
+color:red;
+}
+
+.menu li:last-child{
+color:green;
+}
+
+.menu li:nth-child(2){
+font-weight:bold;
+}
+
+input:checked{
+outline:3px solid green;
+}
+
+input:disabled{
+background:lightgray;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#2c3e50;
+color:white;
+}
